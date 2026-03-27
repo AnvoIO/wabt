@@ -876,3 +876,6 @@ if (WABT_INSTALL_RULES)
     COMPONENT wabt-development
   )
 endif ()
+
+# CDT-specific tools (postpass WASM optimizer)
+include(${CMAKE_CURRENT_SOURCE_DIR}/cdt-tools.cmake)
